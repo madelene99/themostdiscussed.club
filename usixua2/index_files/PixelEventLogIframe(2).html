@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0121)http://www.electronicproductzone.com/PixelEventLogIframe.aspx?FlowID=22101&VID=IGj%7CLg8qOC9seaIidGCzaQ2&PixelEvtID=16339 -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>
+
+</title>
+    <script src="./jquery-1.8.2.min.js.Без названия" type="text/javascript"></script>
+    <!--<script src="./JS/SystemConvert.js" type="text/javascript"></script>
+    <script type="text/javascript">var AF = { FormValidation: {}, System: {}, Lead: {}, Flow: {}, SubFlow: {}, Campaign: {}, Log: {} };</script>-->
+</head>
+<body>
+    <script type="text/javascript">
+    $(document).ready(function () {
+        var parent_obj = window.parent;
+        //var pix = "http://spnccrzone.com/p.ashx?a=110724&e=612&t=#TRANSACTION_ID#";
+        
+        var pix = "https://sandscp.com/p.ashx?a=110724&e=217&t=#TRANSACTION_ID#";
+        if (parent_obj.window.AF.Flow.v.SubAff != undefined && parent_obj.window.AF.Flow.v.SubAff != '') {
+            if (parent_obj.window.AF.Flow.v.SubAff.split("_")[1] == '201342') {
+                $("#firepixel_iframe").prop("src", pix);
+            }
+        }
+    });
+</script>
+<div id="pixeldiv">
+<iframe id="firepixel_iframe" height="1" width="1" src="./inActive(1).html" frameborder="0"></iframe>
+</div>
+
+
+
+
+</body></html>

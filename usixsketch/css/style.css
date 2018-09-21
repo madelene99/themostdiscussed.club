@@ -1,0 +1,645 @@
+
+ 
+
+@font-face {
+  font-family: 'Conv_ofont.ru_Bebas Neue Regular';
+  src: url('../fonts/ofont.ru_Bebas Neue Regular.eot');
+  src: local('☺'), url('../fonts/ofont.ru_Bebas Neue Regular.woff') format('woff'), url('../fonts/ofont.ru_Bebas Neue Regular.ttf') format('truetype'), url('../fonts/ofont.ru_Bebas Neue Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+
+  letter-spacing: 0.5px;
+}
+
+
+.big{
+   letter-spacing: initial;
+}
+
+.wrapper{
+
+}
+
+.walmart1,.walmart2,.walmart3,.walmart4,.amazon1,.amazon2,.amazon3,.amazon4{
+	display: none;
+}
+
+
+.fon1{
+	 
+	width: 100%;
+	max-width: 500px;
+ 
+  height: 100%;
+  height: 100vh;
+ 
+
+	    margin: 0 auto;
+}
+ 
+
+
+.walmart1,.walmart2,.walmart3,.walmart4,.walmart5,.walmart6{
+	 
+	width: 100%;
+	max-width: 500px;
+  height: 100%;
+	 
+
+	    margin: 0 auto;
+}
+.amazon1,.amazon2,.amazon3,.amazon4,.amazon5,.amazon6{
+	
+	width: 100%;
+	max-width: 500px;
+	  height: 100%;
+ 
+
+	    margin: 0 auto;
+}
+
+
+
+
+
+.centerbl{
+	float: left;
+	width: 100%;
+}
+
+.left{
+	width: 155px;
+	float: left;
+}
+
+.right{
+    width: 160px;
+    float: right;
+}
+.center{
+	float: left;
+	width: 60px;
+	text-align: center;
+  display: none;
+}
+.big{
+      width: 343px;
+    margin: 0 auto;
+    margin-top: 42px;
+}
+.zagolovok {
+  font-size: 22px;
+  font-family: "Open Sans";
+  color: #fff;
+  line-height: 1.2;
+  text-align: center;
+   
+   background: #4186f8;
+   width: 263px;
+	
+	   padding: 10px 0px;
+	   margin: 0 auto;
+	   margin-top: 23px;
+	   margin-bottom: 13px;
+}
+
+.fon1 .zagolovok {
+	 margin-bottom: 13px;
+       margin-bottom: 10px;
+    font-weight: bold;
+    color: black;
+    background: none;
+
+        width: 382px;
+    margin-top: 13px;
+    text-transform: none;
+
+}
+.center {
+  font-size: 42px;
+  font-family: "Open Sans";
+  color: #4186f8;
+  font-weight: bold;
+  text-transform: uppercase;
+     line-height: 0.7;
+    margin-top: 20px;
+   
+}
+
+
+.f1img{
+  display: block;
+  margin:0 auto;
+  height: 98px;
+    border-radius: 4px;
+}
+
+.txt1 {
+  font-size: 14px;
+  font-family: "Open Sans";
+   display: none;
+  color: rgb(54, 54, 54);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  
+	margin:0 auto;
+	    margin-top: 12px;
+    
+   
+}
+
+.dots{
+  clear: both;
+      width: 221px;
+    margin: 0 auto;
+    height: 80px;
+}
+
+
+.dot{
+         background: #4186f8;
+    width: 23px;
+    height: 25px;
+    border-radius: 25px;
+    float: left;
+    margin: 25px;
+    display: none;
+}
+
+
+.bdot{
+  float:left;
+  display: none;
+}
+
+
+
+.txt2 {
+ font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    text-indent: 0px;
+    background: url(../img/like.png)no-repeat #ff9c28 94px 5px;
+    width: 115px;
+    background: #FF7F11;
+    width: 145px;
+    padding: 9px 0px;
+    margin: 13px auto;
+    cursor: pointer;
+    box-shadow: 2px 2px 17px #7d7878;
+    color: #4a4a4a;
+    background: linear-gradient(to top, #ffed9e, #ff9e00);
+    border-radius: 5px;
+}
+
+
+
+
+.txt3 {
+ 
+    font-size: 12px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    /* text-transform: uppercase; */
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 15px;
+    font-style: italic;
+    margin-top: -8px;
+  
+}
+.zagolovok_t1 span{
+  color: red;    text-transform: uppercase;
+}
+.zagolovok_t2 span{
+  color: green;    text-transform: uppercase;
+}
+
+
+.zagolovok_t1,.zagolovok_t2,.zagolovok_t {
+     font-size: 14px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+
+    line-height: 1.2;
+    text-align: center;
+    clear: both;
+    float: left;
+}
+.zagolovok_t1{
+  background: url("../img/i1.png") no-repeat center left;
+   
+ width: 272px;
+    margin: 0 auto;
+    text-align: left;
+    float: none;
+    margin-bottom: 21px;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-top: 12px;
+}
+
+.zagolovok_t2{
+  background: url("../img/i2.png") no-repeat center left;
+padding-left: 27px;
+ width: 272px;
+    margin: 0 auto;
+    text-align: left;
+    float: none;
+    margin-bottom: 21px;
+    font-size: 15px;
+    padding-left: 40px;
+    padding-top: 6px;
+
+}
+
+
+.zagolovok_t{
+    width: 100%;
+    margin-bottom: 25px;
+    width: 329px;
+    margin-top: -9px;
+    text-transform: none;
+    text-align: left;
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 9px;
+    margin-bottom: 24px;
+
+}
+
+.amazon1 .zagolovok,.amazon2 .zagolovok,.amazon3 .zagolovok,.amazon4 .zagolovok{
+background: none;
+margin-top: 15px;
+    margin-bottom: 6px;
+}
+
+.walmart1 .zagolovok,.walmart2 .zagolovok,.walmart3 .zagolovok,.walmart4 .zagolovok{
+background: none;
+margin-top: 15px;
+
+    margin-bottom: 6px;
+}
+
+.walmart5 .zagolovok, .amazon5 .zagolovok{
+  font-size: 22px;
+    font-family: "Open Sans";
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    background: #4186f8;
+    width: 330px;
+    padding: 10px 0px;
+    margin: 0 auto;
+    margin-top: 23px;
+    margin-bottom: 13px;
+}
+
+
+
+.walmart5 .centerbl,.amazon5 .centerbl{
+        display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+.zagolovok2 {
+    font-size: 20px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 18px;
+    font-weight: bold;
+    color: #736464;
+}
+
+
+.buts {
+font-size: 19px;
+    font-family: "Open Sans";
+    color: black;
+    line-height: 0.69;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 auto;
+    background: #a2cdff;
+    width: 224px;
+    margin-bottom: 24px;
+    /* height: 49px; */
+    padding-top: 11px;
+    font-weight: bold;
+    padding-bottom: 14px; 
+
+}
+.top1{
+   
+  display: block;margin: 0 auto;
+}
+
+
+
+progress {
+  background-color: #fff;
+  border-radius: 2px;
+  
+ width: 410px;
+    height: 41px;
+  margin: 0 auto;
+      display: block;
+          box-shadow: 4px 3px 12px darkgrey;
+}
+
+
+progress {
+  /* СЃС‚РёР»Рё */
+}
+
+progress::-webkit-progress-bar {
+  /* СЃС‚РёР»Рё */
+    background-color: #fff;
+  border-radius: 2px;
+ 
+    width: 410px;
+    height: 41px;
+  margin: 0 auto;
+}
+
+progress::-webkit-progress-value {
+  /* СЃС‚РёР»Рё */
+    background-color: #77cd34;
+ 
+}
+
+progress::-moz-progress-bar {
+  /* СЃС‚РёР»Рё */
+}
+
+#number{
+    color: white;
+    text-shadow: 1px 1px 20px black;
+    text-align: center;
+     font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: -31px;
+    }
+
+
+.lastbut{
+	 
+  font-size: 24px;
+ 
+     font-family: "Open Sans";
+  color: #fff;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  cursor: pointer;
+  width: 150px;
+  height: 35px;
+       box-shadow: 2px 2px 17px #7d7878;
+ background: #ff9c28;
+     
+         margin: 0 auto;
+}
+.lastimf{
+	    margin: 0 auto;
+    display: block;
+        margin-top: 35px;
+    margin-bottom: 35px;
+    padding-right: 18px;
+}
+
+.ok{
+	margin-left: 10px;
+    vertical-align: -12px;
+}
+
+.walmart6 .zagolovok,.amazon6 .zagolovok{
+	    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 11px;
+        width: 475px;
+        color: #07b95f;
+}
+
+.amazon6 .lastimf{
+	margin-bottom: 23px;
+      
+}
+
+
+.amazon6 .zagolovok{
+       width: 298px;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 0px;
+    /* box-shadow: 2px 2px 17px #7d7878; */
+   background: url(http://i-webpage.ru/some4/img/ok.png)no-repeat center right;
+    color: #7d7878;
+    font-weight: bold;
+    font-size: 23px;
+    text-indent: 0px;
+    margin: 0 auto;
+    padding-bottom: 4px;
+    color: #07b95f;
+}
+.walmart6 .zagolovok{
+       width: 298px;
+    text-align: center;
+    padding: 25px;
+    margin-bottom: 0px;
+    /* box-shadow: 2px 2px 17px #7d7878; */
+   background: url(http://i-webpage.ru/some4/img/ok.png)no-repeat center right;
+    color: #7d7878;
+    font-weight: bold;
+    font-size: 23px;
+    text-indent: 0px;
+    margin: 0 auto;
+    padding-bottom: 4px;
+color: #07b95f;
+}
+
+
+
+.button{
+    width: 139px;
+    font-size: 16px;
+    font-family: "Open Sans";
+    color: rgb(0, 0, 0);
+    /* text-transform: uppercase; */
+    line-height: 0.7;
+    text-align: center;
+    font-weight: bold;
+    padding: 14px 0px;
+    background: #ff9c28;
+    margin: 0 auto;
+    box-shadow: 2px 2px 17px #7d7878;
+    color: #4a4a4a;
+    background: linear-gradient(to top, #ffed9e, #ffffff);
+    border-radius: 5px;
+    text-shadow: 2px 2px 1px white;
+}
+
+
+
+
+.pulse {
+  animation-name: pulse_animation;
+  animation-duration: 5000ms;
+  transform-origin:70% 70%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse_animation {
+  0% { transform: scale(1); }
+  30% { transform: scale(1); }
+  40% { transform: scale(1.08); }
+  50% { transform: scale(1); }
+  60% { transform: scale(1); }
+  70% { transform: scale(1.05); }
+  80% { transform: scale(1); }
+  100% { transform: scale(1); }
+}
+
+
+
+.txtr{
+ 
+     width: 100%;
+    margin-bottom: 25px;
+    font-size: 13px;
+    line-height: 1.756;
+    /* font-family: "Conv_ofont.ru_Bebas Neue Regular"; */
+    margin-top: 0px;
+    background: #d8d8d8;
+    padding: 19px;
+    padding-top: 9px;
+    color: black;
+    padding-bottom: 12px;
+    width: 296px;
+    border-radius: 10px;
+    border:1px solid black;
+}
+
+.txtr span{
+  color:red;
+      text-shadow: 1px 1px 11px white;
+}
+
+.top1{
+    border-radius: 4px;}
+
+
+
+/*
+@media only screen and  (min-width: 1024px){
+.fon1{
+   
+  max-width: 750px;
+ 
+
+      margin: 0 auto;
+}
+ 
+
+
+.walmart1,.walmart2,.walmart3,.walmart4{
+   
+  width: 100%;
+  max-width: 750px;
+ 
+   
+
+ 
+}
+.amazon1,.amazon2,.amazon3,.amazon4{
+  
+ 
+  max-width: 750px;
+ 
+}
+
+.zagolovok_t1, .zagolovok_t2, .zagolovok_t,.zagolovok2{
+      font-size: 26px;
+    }
+
+.zagolovok_t1{
+  width: 434px;
+}
+.zagolovok_t2{
+  width: 409px;
+  margin-left: auto;
+}
+
+.txt1 {font-size: 20px;
+}
+
+.txt3 {
+    font-size: 15px;
+  }
+  
+.txt2 {
+    font-size: 18px;
+
+  }
+.txtr{
+      font-size: 17px;
+}
+
+
+.zagolovok {
+    font-size: 28px;
+  }
+
+}
+
+
+*/
+
+
+@keyframes mymove {
+  0%{width:288px;}
+10%{width:0px;}
+20%{width:288px;}
+30%{width:0px;}
+40%{width:288px;}
+50%{width:0px;}
+60%{width:288px;}
+70%{width:0px;}
+80%{width:288px;}
+90%{width:0px;}
+100%{width:288px;}
+}
+
+
+.walmart5 .f1img,.amazon5 .f1img{
+      animation-name: mymove;
+    animation-duration: 5s;
+}
+
+
+
+

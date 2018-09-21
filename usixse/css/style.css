@@ -1,0 +1,304 @@
+body{
+  /*  background: url("../img/Gradient.png"); */
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 320px;
+    margin: 0 auto;
+}
+
+.img1 {
+    display: block;
+    margin: 0 auto;
+
+}
+.img2{
+    padding-top: 24px;
+    float: right;
+}
+.fon1 .text{
+    font-size: 28px;
+
+    color: rgb(0, 160, 225);
+    line-height: 1.2;
+    text-align: center;
+}
+.img3{
+
+    float: left;
+}
+.fon1 .text1{
+    font-size: 16px;
+
+    color: #000;
+    line-height: 1.2;
+}
+.fon1 .text1 span{
+    color: rgb(255, 0, 0);
+}
+.fon1 .text2{
+    font-size: 16px;
+
+    color: #000;
+    line-height: 1.2;
+}
+.fon1 .text2 span{
+    color: rgb(0, 175, 0);
+}
+.fon1 .btn{
+/*
+    font-size: 36px;
+    color: rgb(0, 173, 243);
+    line-height: 53px;
+    background: #dedc43;
+    text-align: center;
+    width: 244px;
+    margin: 0 auto;
+    height: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+
+    */
+}
+.fon2 .text{
+    font-size: 16px;
+    color: rgb(0, 173, 243);
+    line-height: 1.2;
+    text-align:center;
+    font-style: italic;
+}
+.fon2 .text1{
+font-size: 16px;
+
+color: rgb(0, 173, 243);
+line-height: 1.2;
+    text-align: center;
+    margin-top: 8px;
+}
+.fon2 .text3{
+    font-size: 22px;
+
+    color: rgb(0, 173, 243);
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+.line{
+    background: #00adf3;
+    width: 100%;
+height: 1px;
+}
+.fon2{
+    width: 300px;
+}
+
+.fon2 .btn{
+    font-size: 48px;
+
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    background: #00bfa5;
+    width: 225px;
+    height: 45px;
+    height: 60px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.fon3 .text{
+    font-size: 16px;
+    color: rgb(0, 173, 243);
+    line-height: 1.2;
+    text-align:center;
+    font-style: italic;
+}
+
+.fon4 .text{
+    font-size: 16px;
+    color: rgb(0, 173, 243);
+    line-height: 1.2;
+    text-align:center;
+    font-style: italic;
+}
+.fon3 .text1{
+    font-size: 28px;
+    color: rgb(0, 173, 243);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 45px;
+}
+.fon3 .text2{
+    font-size: 20px;
+    color: rgb(0, 173, 243);
+
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.fon3 .text3{
+    font-size: 28px;
+margin-top: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+}
+.fon4 .text1{
+    font-size: 28px;
+    color: rgb(0, 173, 243);
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 45px;
+}
+.fon4 .text2{
+    font-size: 20px;
+    color: rgb(0, 173, 243);
+
+    line-height: 1.2;
+    text-align: center;
+
+}
+.fon4 .text4{
+    font-size: 22px;
+    background: url(../img/ic.png)left no-repeat;
+    color: rgb(18, 152, 0);
+    line-height: 1.2;
+    margin-left: 58px;
+    padding-left: 33px;
+    margin-bottom: 25px;
+}
+.fon4 .text3{
+
+    font-size: 22px;
+margin-top: 15px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+.fon4 .text5{
+
+    font-size: 22px;
+
+    color: rgb(0, 0, 238);
+    text-decoration: underline;
+    line-height: 1.2;
+    text-align: center;
+
+
+}
+.fon4, #q1, #q2, #q3, #q4, .fon3, .fon2{display: none}
+
+.dots{display: none}
+
+
+
+
+
+.checkbox {
+  vertical-align: top;
+  margin: 0 3px 0 0;
+  width: 120px;
+  height: 51px;
+}
+
+.checkbox + label {
+  cursor: pointer;
+
+}
+
+
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox:not(checked) + label {
+
+      position: relative;
+    padding: 0px 0px 0px 13px; 
+}
+.checkbox:checked + label:before {
+  background: url(../img/f2.png)no-repeat;
+}
+
+.checkbox:not(checked) + label:before {
+content: '';
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 120px;
+    height: 51px;
+
+    background: url(../img/f1.png)no-repeat;
+ 
+}
+
+.checki{
+    width: 120px;
+    height: 51px;
+    float: left;
+    margin: 15px;
+}
+.btn{
+        clear: both;
+}
+
+label div{
+    color: white;
+
+
+
+        padding-left: 16px;
+    margin-top: 3px;
+    font-size: 12px;
+
+
+        text-align: center;
+    padding: 0px 7px;
+}
+
+
+.wraper{
+    background: linear-gradient(to top, #01aef3, #fff);
+        width: 100%;
+    min-height: 100%;
+    min-height: calc(100vh - 20px);
+    padding-bottom: 20px;
+}
+
+
+
+
+
+@keyframes mymove {
+  0%{width:288px;}
+10%{width:0px;}
+20%{width:288px;}
+30%{width:0px;}
+40%{width:288px;}
+50%{width:0px;}
+60%{width:288px;}
+70%{width:0px;}
+80%{width:288px;}
+90%{width:0px;}
+100%{width:288px;}
+}
+
+
+
+.fon3 .img1{
+    transition:5s;
+    animation-name: mymove;
+    animation-duration: 5s;
+    height: 268px;
+
+}
